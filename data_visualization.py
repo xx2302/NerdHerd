@@ -49,10 +49,3 @@ ax2 = sns.regplot(x='Critic Numbers', y='Box office (USD)', data=revenue, x_jitt
 plt.title('Box office by Critic Numbers',fontsize=15)
 plt.xlabel('Critic Numbers',fontsize=13)
 plt.ylabel('Box office',fontsize=13)
-
-ax2 = plt.subplot(2,2,3)
-ax2 = sns.regplot(x='User Rating', y='Box office (USD)', data=revenue, x_jitter=.1,color='g',marker='+')
-#ax2.text(6800,1.1e9,'r=0.78',fontsize=15)
-plt.title('Box office by User Rating',fontsize=15)
-plt.xlabel('Critic Numbers',fontsize=13)
-plt.ylabel('Box office',fontsize=13)
